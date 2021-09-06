@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Josefin+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.header{
+  background:#FFBF00;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.src{
+    width: 10%;
+    margin-left: 10%;
+}
+.navbar-nav{
+margin-left: 10%;
+}
+.navbar li {
+  margin-left: 10%;
+}
+.icon{
+    margin-right: 25%;
+   
+}
+ .icon .fa{
+    color: white;
+    padding-left: 15px;
+    font-size: 20px;
+}
+.navbar-nav li a{
+      font-weight: 500;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 25px;
+      color: whitesmoke !important;
+}
+.navbar-nav li a:hover{
+  color: black !important;
+  border-bottom: 2px solid black;
+}
+.src1{
+  width: 100%;
+  }
+  .src2{
+    /* clip-path: polygon(50% 0%, 79% 29%, 100% 35%, 100% 70%, 71% 98%, 50% 73%, 24% 89%, 0 84%, 0 20%); */
+    width: 70%;
+    border-radius: 10px;
+    height: 50vh;
+  }
+  .text-1{
+    font-size: 45px;
+    font-weight: 600;
+    color: whitesmoke;
+    font-family: cursive;
+    text-align: justify;
+  }
+  .gap{
+    margin-top: 5rem;
+  }
+  .text-2{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 500;
+    color: whitesmoke;
+    line-height: 30px;
+    font-family: cursive;
+  }
+  .btn1{
+    margin-top: 50px;
+    text-align: justify;
+  }
+  .btn:hover{
+    background: white;
+    color: blue;
+    border: none;
+  }
+  .progrm {
+ font-family: cursive;
+  }
+  .fa-child{
+    color: #00BFFF;
+    font-size: 35px;
+    border: 2px solid #00BFFF;
+    border-radius: 50%;
+    padding:10px 15px;
+  }
+  .card-body:hover {
+   color: #FFBF00;
+  }
+  .card-body .fa-child:hover{
+   background:#FFBF00;
+   border: none;
+   color: white;
+  }
+  .card{
+    margin-top:20%;
+    width: 100%;
+    border: none;
+    box-shadow: 7px 10px 16px 0px rgba(0,0,0,0.62);
+    border-radius: 10px;
+   transition: transform 0.5s;
+  }
+  .card:hover{
+    transform: translateY(-15px);
+  }
+  .event{
+  background-color: #0099ff;
+  }
